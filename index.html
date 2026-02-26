@@ -7,12 +7,18 @@
   <meta name="description" content="Beauty professional in Waterford, Ireland. Nail services, make-up and facial massage. Book your appointment.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <div class="nail-ornament nail-ornament-top-left"></div>
+  <div class="nail-ornament nail-ornament-top-right"></div>
+  <div class="nail-ornament nail-ornament-bottom-left"></div>
+  <div class="nail-ornament nail-ornament-bottom-right"></div>
+
   <header class="site-header">
     <nav class="nav" aria-label="Main navigation">
+      <div class="logo">JR<span class="logo-dot">.</span></div>
       <ul class="nav-list">
         <li><a href="#about">About</a></li>
         <li><a href="#services">Services</a></li>
@@ -26,22 +32,32 @@
   <main>
     <!-- Hero -->
     <section class="hero" id="hero">
+      <div class="hero-decoration"></div>
       <div class="hero-content">
+        <div class="hero-sparkle sparkle-1">✦</div>
+        <div class="hero-sparkle sparkle-2">✧</div>
+        <div class="hero-sparkle sparkle-3">✦</div>
         <h1 class="hero-title">Jurate Rinkeviciute</h1>
-        <p class="hero-subtitle">Nail Technician, Make-Up Artist & Facial Massage Specialist</p>
+        <div class="hero-divider">
+          <span class="divider-nail">💅</span>
+        </div>
+        <p class="hero-subtitle">Nail Technician • Make-Up Artist • Facial Massage Specialist</p>
         <p class="hero-tagline">Helping you feel confident, cared for and beautiful—every day.</p>
-        <a href="#contact" class="btn btn-primary btn-pulse">Book an Appointment</a>
+        <a href="#contact" class="btn btn-primary btn-glow">Book an Appointment</a>
       </div>
     </section>
 
     <!-- About Jurate -->
     <section class="section about" id="about">
       <div class="container">
-        <h2 class="section-title">About Jurate</h2>
+        <div class="section-header">
+          <span class="section-icon">✨</span>
+          <h2 class="section-title">About Jurate</h2>
+        </div>
         <div class="about-content">
-          <p>I am a beauty professional based in Waterford, Ireland, where I work at <strong>Beauty Salon Name</strong>. For me, this work is about more than nails or make-up—it’s about creating a calm space where you can relax and leave feeling a little brighter.</p>
-          <p>About a year ago I was diagnosed with breast cancer. I went through treatment and, with the support of my family and medical team, I came through it. I’m still on medication and taking care of my health, but I’m back doing what I love. That experience deepened my belief in self-care, in looking after your body and mind, and in the importance of feeling good in your own skin. I bring that perspective into every appointment.</p>
-          <p>When you sit in my chair, you get my full attention: quality work, a clean environment and a friendly, no-fuss atmosphere. I’d love to welcome you.</p>
+          <p>I am a beauty professional based in Waterford, Ireland, where I work at <strong>Beauty Salon Name</strong>. For me, this work is about more than nails or make-up—it's about creating a calm space where you can relax and leave feeling a little brighter.</p>
+          <p>With years of experience and a genuine passion for beauty, I take pride in every detail of my work. Whether it's a simple manicure or a complete bridal look, I bring the same level of care and attention.</p>
+          <p>When you sit in my chair, you get my full attention: quality work, a clean environment and a friendly, no-fuss atmosphere. I'd love to welcome you.</p>
         </div>
       </div>
     </section>
@@ -49,31 +65,40 @@
     <!-- Services -->
     <section class="section services" id="services">
       <div class="container">
-        <h2 class="section-title">Services</h2>
+        <div class="section-header">
+          <span class="section-icon">💎</span>
+          <h2 class="section-title">Services</h2>
+        </div>
         <div class="services-grid">
           <article class="service-card">
+            <div class="service-icon">💅</div>
             <h3 class="service-title">Nail services</h3>
             <ul class="service-list">
               <li>Manicure and nail care for healthy, neat nails</li>
               <li>Nail art and creative designs for a personal touch</li>
-              <li>Ideal if you want your hands to look polished and well-kept for everyday or special occasions</li>
+              <li>Gel, acrylic and natural nail options</li>
             </ul>
+            <div class="service-decoration"></div>
           </article>
-          <article class="service-card">
+          <article class="service-card service-card-featured">
+            <div class="service-icon">💄</div>
             <h3 class="service-title">Make-up</h3>
             <ul class="service-list">
               <li>Day and evening make-up tailored to your style</li>
               <li>Special occasions and bridal make-up</li>
-              <li>For anyone who wants to look and feel their best—whether it’s for work, an event or your wedding day</li>
+              <li>Lessons to perfect your own technique</li>
             </ul>
+            <div class="service-decoration"></div>
           </article>
           <article class="service-card">
+            <div class="service-icon">🌸</div>
             <h3 class="service-title">Facial massage</h3>
             <ul class="service-list">
               <li>Relaxing facial treatments to ease tension</li>
-              <li>Skin-care focused massage to improve circulation and glow</li>
-              <li>Perfect when you need time to unwind and give your skin some attention</li>
+              <li>Skin-care focused massage for natural glow</li>
+              <li>Anti-aging and rejuvenating techniques</li>
             </ul>
+            <div class="service-decoration"></div>
           </article>
         </div>
       </div>
@@ -82,10 +107,17 @@
     <!-- Philosophy -->
     <section class="section philosophy" id="philosophy">
       <div class="container">
-        <h2 class="section-title">My approach</h2>
+        <div class="section-header">
+          <span class="section-icon">🤍</span>
+          <h2 class="section-title">My approach</h2>
+        </div>
         <div class="philosophy-content">
-          <p>I believe in comfort, cleanliness and really listening to what you want. My goal is to enhance your natural beauty with care and attention to detail—no pressure, no drama. I value honest, friendly communication and a calm, positive atmosphere. I’m not into gossip; I’d rather we focus on you and your treatment.</p>
-          <blockquote class="philosophy-quote">I want every client to leave feeling a little more beautiful and a little more relaxed, even when life is busy.</blockquote>
+          <p>I believe in comfort, cleanliness and really listening to what you want. My goal is to enhance your natural beauty with care and attention to detail—no pressure, no drama. I value honest, friendly communication and a calm, positive atmosphere.</p>
+          <blockquote class="philosophy-quote">
+            <span class="quote-mark">"</span>
+            I want every client to leave feeling a little more beautiful and a little more relaxed, even when life is busy.
+            <span class="quote-mark">"</span>
+          </blockquote>
         </div>
       </div>
     </section>
@@ -93,9 +125,12 @@
     <!-- Personal life -->
     <section class="section personal" id="personal">
       <div class="container">
-        <h2 class="section-title">Beyond the salon</h2>
+        <div class="section-header">
+          <span class="section-icon">🏡</span>
+          <h2 class="section-title">Beyond the salon</h2>
+        </div>
         <div class="personal-content">
-          <p>When I’m not at the salon, I’m a mom of two: my daughter Kameja and my son Jonas. Juggling work and family keeps me on my toes, but I wouldn’t have it any other way. When my routine allows it, I love to travel—it’s my way to recharge and see a bit of the world.</p>
+          <p>When I'm not at the salon, I'm a proud mom of two wonderful kids: my daughter Kameja and my son Jonas. Balancing work and family life keeps me busy, but I wouldn't have it any other way. When my routine allows, I love to travel and explore new places—it's my way to recharge and find new inspiration.</p>
         </div>
       </div>
     </section>
@@ -103,26 +138,35 @@
     <!-- Booking & Contact -->
     <section class="section contact" id="contact">
       <div class="container">
-        <h2 class="section-title">Booking & contact</h2>
+        <div class="section-header">
+          <span class="section-icon">📞</span>
+          <h2 class="section-title">Booking & contact</h2>
+        </div>
         <div class="contact-wrapper">
           <div class="contact-info">
-            <p><strong>Phone:</strong> <span class="placeholder">+353 ___ ___ ____</span></p>
-            <p><strong>Email:</strong> <a href="mailto:jurate@example.com">jurate@example.com</a></p>
-            <p><strong>Salon:</strong> <span class="placeholder">Beauty Salon Name</span><br>
-            <span class="placeholder">Address, Waterford, Ireland</span></p>
-            <div class="social-links">
-              <a href="https://www.instagram.com/example" target="_blank" rel="noopener noreferrer" aria-label="Instagram">Instagram</a>
-              <a href="https://www.facebook.com/example" target="_blank" rel="noopener noreferrer" aria-label="Facebook">Facebook</a>
+            <div class="contact-card">
+              <p><strong>Phone:</strong> <span class="placeholder">+353 ___ ___ ____</span></p>
+              <p><strong>Email:</strong> <a href="mailto:jurate@example.com">jurate@example.com</a></p>
+              <p><strong>Salon:</strong> <span class="placeholder">Beauty Salon Name</span><br>
+              <span class="placeholder">Address, Waterford, Ireland</span></p>
+              <div class="social-links">
+                <a href="https://www.instagram.com/example" target="_blank" rel="noopener noreferrer" class="social-btn">
+                  <span>Instagram</span>
+                </a>
+                <a href="https://www.facebook.com/example" target="_blank" rel="noopener noreferrer" class="social-btn">
+                  <span>Facebook</span>
+                </a>
+              </div>
             </div>
           </div>
           <form class="contact-form" action="#" method="post" aria-label="Contact form">
             <label for="name">Name</label>
-            <input type="text" id="name" name="name" required>
+            <input type="text" id="name" name="name" required placeholder="Your name">
             <label for="email">Email</label>
-            <input type="email" id="email" name="email" required>
+            <input type="email" id="email" name="email" required placeholder="your@email.com">
             <label for="message">Message</label>
-            <textarea id="message" name="message" rows="5" required></textarea>
-            <button type="submit" class="btn btn-primary">Send message</button>
+            <textarea id="message" name="message" rows="5" required placeholder="How can I help you?"></textarea>
+            <button type="submit" class="btn btn-primary">Send message ✨</button>
           </form>
         </div>
       </div>
@@ -130,7 +174,11 @@
   </main>
 
   <footer class="site-footer">
-    <p>&copy; Jurate Rinkeviciute. All rights reserved.</p>
+    <div class="footer-content">
+      <div class="footer-logo">JR<span class="logo-dot">.</span></div>
+      <p>&copy; 2024 Jurate Rinkeviciute. All rights reserved.</p>
+      <p class="footer-tagline">Beauty • Confidence • Care</p>
+    </div>
   </footer>
 
   <script>
