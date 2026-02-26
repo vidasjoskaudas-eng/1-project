@@ -3,170 +3,316 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Jurate Rinkeviciute – Nail Technician, Make-Up Artist & Facial Massage Specialist | Waterford</title>
-  <meta name="description" content="Beauty professional in Waterford, Ireland. Nail services, make-up and facial massage. Book your appointment.">
+  <title>Jurate Rinkeviciute – Nail Art & Beauty | Waterford</title>
+  <meta name="description" content="Professional nail art, make-up and facial massage in Waterford, Ireland. Book your appointment with Jurate.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="nail-ornament nail-ornament-top-left"></div>
-  <div class="nail-ornament nail-ornament-top-right"></div>
-  <div class="nail-ornament nail-ornament-bottom-left"></div>
-  <div class="nail-ornament nail-ornament-bottom-right"></div>
+  <!-- Decorative Background Pattern -->
+  <div class="bg-pattern"></div>
+  
+  <!-- Floating Nail Art Elements -->
+  <div class="floating-elements">
+    <div class="float-element float-1">✦</div>
+    <div class="float-element float-2">❋</div>
+    <div class="float-element float-3">✧</div>
+    <div class="float-element float-4">❀</div>
+    <div class="float-element float-5">✦</div>
+  </div>
 
   <header class="site-header">
-    <nav class="nav" aria-label="Main navigation">
-      <div class="logo">JR<span class="logo-dot">.</span></div>
+    <nav class="nav">
+      <a href="#hero" class="logo">
+        <span class="logo-text">Jurate</span>
+        <span class="logo-accent">Beauty</span>
+      </a>
       <ul class="nav-list">
-        <li><a href="#about">About</a></li>
         <li><a href="#services">Services</a></li>
-        <li><a href="#philosophy">My approach</a></li>
-        <li><a href="#personal">Beyond the salon</a></li>
-        <li><a href="#contact">Contact</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#contact" class="nav-cta">Book Now</a></li>
       </ul>
+      <button class="mobile-menu-btn" aria-label="Menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
     </nav>
   </header>
 
   <main>
-    <!-- Hero -->
+    <!-- Hero - Asymmetric Layout -->
     <section class="hero" id="hero">
-      <div class="hero-decoration"></div>
+      <div class="hero-bg-gradient"></div>
       <div class="hero-content">
-        <div class="hero-sparkle sparkle-1">✦</div>
-        <div class="hero-sparkle sparkle-2">✧</div>
-        <div class="hero-sparkle sparkle-3">✦</div>
-        <h1 class="hero-title">Jurate Rinkeviciute</h1>
-        <div class="hero-divider">
-          <span class="divider-nail">💅</span>
+        <div class="hero-text">
+          <p class="hero-tagline">Waterford's Nail Art Specialist</p>
+          <h1 class="hero-title">
+            Beautiful Nails,<br>
+            <span class="title-accent">Confident You</span>
+          </h1>
+          <p class="hero-subtitle">
+            Expert nail art, flawless make-up, and relaxing facial massage. 
+            Walk out feeling radiant.
+          </p>
+          <div class="hero-cta-group">
+            <a href="#contact" class="btn btn-primary">
+              Book Your Appointment
+              <span class="btn-icon">→</span>
+            </a>
+            <a href="#services" class="btn btn-ghost">View Services</a>
+          </div>
+          <div class="hero-trust">
+            <div class="trust-item">
+              <span class="trust-number">500+</span>
+              <span class="trust-label">Happy Clients</span>
+            </div>
+            <div class="trust-divider"></div>
+            <div class="trust-item">
+              <span class="trust-number">5★</span>
+              <span class="trust-label">Google Rating</span>
+            </div>
+            <div class="trust-divider"></div>
+            <div class="trust-item">
+              <span class="trust-number">8+</span>
+              <span class="trust-label">Years Experience</span>
+            </div>
+          </div>
         </div>
-        <p class="hero-subtitle">Nail Technician • Make-Up Artist • Facial Massage Specialist</p>
-        <p class="hero-tagline">Helping you feel confident, cared for and beautiful—every day.</p>
-        <a href="#contact" class="btn btn-primary btn-glow">Book an Appointment</a>
+        <div class="hero-visual">
+          <div class="hero-card">
+            <div class="nail-showcase">
+              <div class="nail nail-1"></div>
+              <div class="nail nail-2"></div>
+              <div class="nail nail-3"></div>
+              <div class="nail nail-4"></div>
+              <div class="nail nail-5"></div>
+            </div>
+            <div class="showcase-label">Nail Art Gallery</div>
+          </div>
+          <div class="hero-decoration deco-1">💅</div>
+          <div class="hero-decoration deco-2">✨</div>
+        </div>
       </div>
     </section>
 
-    <!-- About Jurate -->
-    <section class="section about" id="about">
-      <div class="container">
-        <div class="section-header">
-          <span class="section-icon">✨</span>
-          <h2 class="section-title">About Jurate</h2>
-        </div>
-        <div class="about-content">
-          <p>I am a beauty professional based in Waterford, Ireland, where I work at <strong>Beauty Salon Name</strong>. For me, this work is about more than nails or make-up—it's about creating a calm space where you can relax and leave feeling a little brighter.</p>
-          <p>With years of experience and a genuine passion for beauty, I take pride in every detail of my work. Whether it's a simple manicure or a complete bridal look, I bring the same level of care and attention.</p>
-          <p>When you sit in my chair, you get my full attention: quality work, a clean environment and a friendly, no-fuss atmosphere. I'd love to welcome you.</p>
-        </div>
-      </div>
-    </section>
-
-    <!-- Services -->
+    <!-- Services - Bento Grid -->
     <section class="section services" id="services">
       <div class="container">
         <div class="section-header">
-          <span class="section-icon">💎</span>
+          <p class="section-tagline">What I Offer</p>
           <h2 class="section-title">Services</h2>
         </div>
-        <div class="services-grid">
-          <article class="service-card">
-            <div class="service-icon">💅</div>
-            <h3 class="service-title">Nail services</h3>
-            <ul class="service-list">
-              <li>Manicure and nail care for healthy, neat nails</li>
-              <li>Nail art and creative designs for a personal touch</li>
-              <li>Gel, acrylic and natural nail options</li>
+        <div class="services-bento">
+          <article class="bento-card bento-large">
+            <div class="bento-icon">💅</div>
+            <h3 class="bento-title">Nail Art & Manicure</h3>
+            <p class="bento-desc">From classic manicures to intricate nail art designs. Gel, acrylic, and natural options available.</p>
+            <ul class="bento-features">
+              <li>Gel & Acrylic Extensions</li>
+              <li>Custom Nail Art Designs</li>
+              <li>French & Ombre Styles</li>
+              <li>Nail Repair & Strengthening</li>
             </ul>
-            <div class="service-decoration"></div>
+            <div class="bento-price">From €35</div>
+            <div class="bento-decoration"></div>
           </article>
-          <article class="service-card service-card-featured">
-            <div class="service-icon">💄</div>
-            <h3 class="service-title">Make-up</h3>
-            <ul class="service-list">
-              <li>Day and evening make-up tailored to your style</li>
-              <li>Special occasions and bridal make-up</li>
-              <li>Lessons to perfect your own technique</li>
+          
+          <article class="bento-card">
+            <div class="bento-icon">💄</div>
+            <h3 class="bento-title">Make-Up</h3>
+            <p class="bento-desc">Tailored looks for any occasion—day, evening, or your special day.</p>
+            <ul class="bento-features">
+              <li>Bridal & Special Events</li>
+              <li>Natural & Glam Looks</li>
+              <li>Personal Lessons</li>
             </ul>
-            <div class="service-decoration"></div>
+            <div class="bento-price">From €50</div>
           </article>
-          <article class="service-card">
-            <div class="service-icon">🌸</div>
-            <h3 class="service-title">Facial massage</h3>
-            <ul class="service-list">
-              <li>Relaxing facial treatments to ease tension</li>
-              <li>Skin-care focused massage for natural glow</li>
-              <li>Anti-aging and rejuvenating techniques</li>
+          
+          <article class="bento-card">
+            <div class="bento-icon">🌸</div>
+            <h3 class="bento-title">Facial Massage</h3>
+            <p class="bento-desc">Relaxing treatments that rejuvenate your skin and ease tension.</p>
+            <ul class="bento-features">
+              <li>Anti-Aging Techniques</li>
+              <li>Deep Relaxation</li>
+              <li>Skin Glow Treatment</li>
             </ul>
-            <div class="service-decoration"></div>
+            <div class="bento-price">From €40</div>
           </article>
         </div>
       </div>
     </section>
 
-    <!-- Philosophy -->
-    <section class="section philosophy" id="philosophy">
+    <!-- About - Personal Touch -->
+    <section class="section about" id="about">
       <div class="container">
-        <div class="section-header">
-          <span class="section-icon">🤍</span>
-          <h2 class="section-title">My approach</h2>
-        </div>
-        <div class="philosophy-content">
-          <p>I believe in comfort, cleanliness and really listening to what you want. My goal is to enhance your natural beauty with care and attention to detail—no pressure, no drama. I value honest, friendly communication and a calm, positive atmosphere.</p>
-          <blockquote class="philosophy-quote">
-            <span class="quote-mark">"</span>
-            I want every client to leave feeling a little more beautiful and a little more relaxed, even when life is busy.
-            <span class="quote-mark">"</span>
-          </blockquote>
-        </div>
-      </div>
-    </section>
-
-    <!-- Personal life -->
-    <section class="section personal" id="personal">
-      <div class="container">
-        <div class="section-header">
-          <span class="section-icon">🏡</span>
-          <h2 class="section-title">Beyond the salon</h2>
-        </div>
-        <div class="personal-content">
-          <p>When I'm not at the salon, I'm a proud mom of two wonderful kids: my daughter Kameja and my son Jonas. Balancing work and family life keeps me busy, but I wouldn't have it any other way. When my routine allows, I love to travel and explore new places—it's my way to recharge and find new inspiration.</p>
-        </div>
-      </div>
-    </section>
-
-    <!-- Booking & Contact -->
-    <section class="section contact" id="contact">
-      <div class="container">
-        <div class="section-header">
-          <span class="section-icon">📞</span>
-          <h2 class="section-title">Booking & contact</h2>
-        </div>
-        <div class="contact-wrapper">
-          <div class="contact-info">
-            <div class="contact-card">
-              <p><strong>Phone:</strong> <span class="placeholder">+353 ___ ___ ____</span></p>
-              <p><strong>Email:</strong> <a href="mailto:jurate@example.com">jurate@example.com</a></p>
-              <p><strong>Salon:</strong> <span class="placeholder">Beauty Salon Name</span><br>
-              <span class="placeholder">Address, Waterford, Ireland</span></p>
-              <div class="social-links">
-                <a href="https://www.instagram.com/example" target="_blank" rel="noopener noreferrer" class="social-btn">
-                  <span>Instagram</span>
-                </a>
-                <a href="https://www.facebook.com/example" target="_blank" rel="noopener noreferrer" class="social-btn">
-                  <span>Facebook</span>
-                </a>
+        <div class="about-grid">
+          <div class="about-visual">
+            <div class="about-card">
+              <div class="about-pattern"></div>
+              <div class="about-quote">
+                <span class="quote-mark">"</span>
+                Every client deserves to feel special.
+                <span class="quote-mark">"</span>
               </div>
             </div>
           </div>
-          <form class="contact-form" action="#" method="post" aria-label="Contact form">
-            <label for="name">Name</label>
-            <input type="text" id="name" name="name" required placeholder="Your name">
-            <label for="email">Email</label>
-            <input type="email" id="email" name="email" required placeholder="your@email.com">
-            <label for="message">Message</label>
-            <textarea id="message" name="message" rows="5" required placeholder="How can I help you?"></textarea>
-            <button type="submit" class="btn btn-primary">Send message ✨</button>
+          <div class="about-content">
+            <p class="section-tagline">About Me</p>
+            <h2 class="section-title text-left">Jurate Rinkeviciute</h2>
+            <p class="about-text">
+              I'm a beauty professional based in Waterford, Ireland, with over 8 years of experience 
+              transforming nails into works of art. For me, this work is about more than beauty—it's 
+              about creating a calm, welcoming space where you can relax and leave feeling truly special.
+            </p>
+            <p class="about-text">
+              When you sit in my chair, you get my full attention: quality work, a clean environment, 
+              and a friendly atmosphere. Whether it's your first gel nails or an intricate bridal design, 
+              I bring the same passion to every appointment.
+            </p>
+            <div class="about-highlights">
+              <div class="highlight-item">
+                <span class="highlight-icon">✓</span>
+                <span>Certified Nail Technician</span>
+              </div>
+              <div class="highlight-item">
+                <span class="highlight-icon">✓</span>
+                <span>Premium Products Only</span>
+              </div>
+              <div class="highlight-item">
+                <span class="highlight-icon">✓</span>
+                <span>Relaxed, Friendly Atmosphere</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Gallery Placeholder -->
+    <section class="section gallery" id="gallery">
+      <div class="container">
+        <div class="section-header">
+          <p class="section-tagline">My Work</p>
+          <h2 class="section-title">Nail Art Gallery</h2>
+        </div>
+        <div class="gallery-grid">
+          <div class="gallery-item gallery-item-lg">
+            <div class="gallery-placeholder">
+              <span class="placeholder-icon">🎨</span>
+              <span class="placeholder-text">French Ombre</span>
+            </div>
+          </div>
+          <div class="gallery-item">
+            <div class="gallery-placeholder">
+              <span class="placeholder-icon">💎</span>
+              <span class="placeholder-text">Gem Designs</span>
+            </div>
+          </div>
+          <div class="gallery-item">
+            <div class="gallery-placeholder">
+              <span class="placeholder-icon">🌺</span>
+              <span class="placeholder-text">Floral Art</span>
+            </div>
+          </div>
+          <div class="gallery-item">
+            <div class="gallery-placeholder">
+              <span class="placeholder-icon">✨</span>
+              <span class="placeholder-text">Glitter Nails</span>
+            </div>
+          </div>
+          <div class="gallery-item gallery-item-lg">
+            <div class="gallery-placeholder">
+              <span class="placeholder-icon">💅</span>
+              <span class="placeholder-text">Bridal Collection</span>
+            </div>
+          </div>
+        </div>
+        <p class="gallery-note">Follow me on Instagram for more designs</p>
+      </div>
+    </section>
+
+    <!-- Contact / Booking -->
+    <section class="section contact" id="contact">
+      <div class="container">
+        <div class="contact-grid">
+          <div class="contact-info">
+            <p class="section-tagline">Get in Touch</p>
+            <h2 class="section-title text-left">Book Your Visit</h2>
+            <p class="contact-text">
+              Ready to treat yourself? Book an appointment or send me a message. 
+              I'll get back to you within 24 hours.
+            </p>
+            
+            <div class="contact-details">
+              <div class="contact-item">
+                <span class="contact-icon">📍</span>
+                <div>
+                  <strong>Location</strong>
+                  <p>Beauty Salon Name<br>Waterford, Ireland</p>
+                </div>
+              </div>
+              <div class="contact-item">
+                <span class="contact-icon">📞</span>
+                <div>
+                  <strong>Phone</strong>
+                  <p>+353 ___ ___ ____</p>
+                </div>
+              </div>
+              <div class="contact-item">
+                <span class="contact-icon">📧</span>
+                <div>
+                  <strong>Email</strong>
+                  <p>jurate@example.com</p>
+                </div>
+              </div>
+            </div>
+            
+            <div class="social-links">
+              <a href="https://www.instagram.com/example" target="_blank" rel="noopener noreferrer" class="social-link">
+                <span class="social-icon">📸</span>
+                Instagram
+              </a>
+              <a href="https://www.facebook.com/example" target="_blank" rel="noopener noreferrer" class="social-link">
+                <span class="social-icon">👤</span>
+                Facebook
+              </a>
+            </div>
+          </div>
+          
+          <form class="contact-form" action="#" method="post">
+            <div class="form-group">
+              <label for="name">Your Name</label>
+              <input type="text" id="name" name="name" required placeholder="Jane Smith">
+            </div>
+            <div class="form-group">
+              <label for="email">Email Address</label>
+              <input type="email" id="email" name="email" required placeholder="jane@email.com">
+            </div>
+            <div class="form-group">
+              <label for="service">Service Interest</label>
+              <select id="service" name="service">
+                <option value="">Select a service...</option>
+                <option value="nails">Nail Art & Manicure</option>
+                <option value="makeup">Make-Up</option>
+                <option value="facial">Facial Massage</option>
+                <option value="combo">Multiple Services</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="message">Message (Optional)</label>
+              <textarea id="message" name="message" rows="4" placeholder="Tell me about your ideal look or any questions..."></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary btn-full">
+              Send Message
+              <span class="btn-icon">→</span>
+            </button>
+            <p class="form-note">I typically respond within 24 hours</p>
           </form>
         </div>
       </div>
@@ -174,20 +320,53 @@
   </main>
 
   <footer class="site-footer">
-    <div class="footer-content">
-      <div class="footer-logo">JR<span class="logo-dot">.</span></div>
-      <p>&copy; 2024 Jurate Rinkeviciute. All rights reserved.</p>
-      <p class="footer-tagline">Beauty • Confidence • Care</p>
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-brand">
+          <span class="footer-logo">Jurate Beauty</span>
+          <p class="footer-tagline">Nail Art • Make-Up • Facial Massage</p>
+        </div>
+        <div class="footer-links">
+          <a href="#services">Services</a>
+          <a href="#about">About</a>
+          <a href="#gallery">Gallery</a>
+          <a href="#contact">Contact</a>
+        </div>
+        <p class="footer-copy">&copy; 2024 Jurate Rinkeviciute. Waterford, Ireland.</p>
+      </div>
     </div>
   </footer>
 
   <script>
+    // Smooth scroll
     document.querySelectorAll('a[href^="#"]').forEach(anchor => {
       anchor.addEventListener('click', function (e) {
         e.preventDefault();
         const target = document.querySelector(this.getAttribute('href'));
-        if (target) target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        if (target) {
+          target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
       });
+    });
+
+    // Mobile menu toggle
+    const menuBtn = document.querySelector('.mobile-menu-btn');
+    const navList = document.querySelector('.nav-list');
+    if (menuBtn) {
+      menuBtn.addEventListener('click', () => {
+        navList.classList.toggle('nav-open');
+        menuBtn.classList.toggle('menu-open');
+      });
+    }
+
+    // Header scroll effect
+    const header = document.querySelector('.site-header');
+    window.addEventListener('scroll', () => {
+      if (window.scrollY > 50) {
+        header.classList.add('header-scrolled');
+      } else {
+        header.classList.remove('header-scrolled');
+      }
     });
   </script>
 </body>
