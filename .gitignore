@@ -1,0 +1,13 @@
+# SSH keys – never commit private keys
+.ssh/
+
+# VPS configuration files (contain IP addresses, keys)
+add-key-to-vps.ps1
+setup-vps-ssh.ps1
+KOMANDA-VPS.txt
+vps-add-key-oneliner.txt
+VPS-IDEGTI-RAKTA.bat
+vps-install-ssh-key.txt
+
+# Cursor IDE
+.cursor/
