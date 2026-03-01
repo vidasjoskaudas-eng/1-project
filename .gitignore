@@ -1,13 +1,36 @@
-# SSH keys – never commit private keys
+# Build / dependencies
+node_modules/
+dist/
+build/
+
+# SSH keys and private credentials
+private/
+*.pem
+*.ppk
+*.key
+*.keys
+*.rsa
+*.ssh
+*id_rsa*
+*id_ed25519*
+*.crt
+*.csr
+*.der
+*.p12
+*.pfx
+*.env
+.env.*
+secrets/
+keys/
 .ssh/
 
-# VPS configuration files (contain IP addresses, keys)
-add-key-to-vps.ps1
-setup-vps-ssh.ps1
-KOMANDA-VPS.txt
-vps-add-key-oneliner.txt
-VPS-IDEGTI-RAKTA.bat
-vps-install-ssh-key.txt
+# Logs and temporary
+*.log
+*.tmp
+
+# OS / editor junk
+.DS_Store
+Thumbs.db
 
 # Cursor IDE
 .cursor/
